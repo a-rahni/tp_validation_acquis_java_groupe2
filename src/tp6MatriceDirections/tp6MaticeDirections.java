@@ -29,16 +29,16 @@ public class tp6MaticeDirections {
             switch (e.toLowerCase())
             {
                 case "haut":
-                    x--;
+                    y++;//x--;
                     break;
                 case "bas":
-                    x++;
+                    y--;//x++;
                     break;
                 case "gauche":
-                    y--;
+                    x--;//y--;
                     break;
                 case "droite":
-                    y++;
+                    x++;//y++;
                     break;
             }
         }
